@@ -12,6 +12,8 @@ body {
     width: 100vw;
     height: auto;
     border: solid red;
+    background-color: #dfdfdf;
+    font-family: Verdana, sans-serif;
 }
 
 .center {
@@ -22,7 +24,7 @@ header {
     position: fixed;
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     align-items: center;
     padding: 1rem;
     border: solid green;
@@ -43,16 +45,29 @@ header {
 
 }
 
-#ul {
-    display: flex;
-    width: 30%;
+ul {
     border: solid red;
-    list-style: none;
+    list-style-type: none;
 }
 
-#li {
-    font-size: 1.8em;
-    padding: 25px;
+#how-it-works{
+    display: flex;
+    font-size: 1rem;
+}
+
+#how-it-works b {
+    font-size: 1.4rem;
+}
+
+#how-it-works li {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-image: linear-gradient(#b6ff00 10%, #3a4915);
+    border-radius: 0.5rem;
+}
+
+#footer {
+    padding-left: 1rem;
 }
 
 @media (max-width: 800px) {
