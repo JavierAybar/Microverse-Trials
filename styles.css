@@ -1,0 +1,62 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 20rem;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    border: solid red;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+    padding: 1rem;
+    border: solid green;
+}
+
+#form {
+    margin: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+#form h1 {
+
+}
+
+#ul {
+    display: flex;
+    width: 30%;
+    border: solid red;
+    list-style: none;
+}
+
+#li {
+    font-size: 1.8em;
+    padding: 25px;
+}
+
+@media (max-width: 800px) {
+    #form h1 {
+        font-size: 1rem;
+    }
+}

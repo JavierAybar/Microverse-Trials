@@ -5,24 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header id="header">
         <div>
-            <img id="header-img" src="" alt="">
+            <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="">
         </div>
         <nav id="nav-bar">
             <ul>
-                <li><a class="nav-link" href="#features"></a>Features</li>
-                <li><a class="nav-link" href="how-it-works"></a>How it Works</li>
-                <li><a class="nav-link" href="pricing"></a>Pricing</li>
+                <a class="nav-link" href="#form">
+                <li>Features</li></a>
+                <li><a class="nav-link" href="#how-it-works"></a>How it Works</li>
+                <li><a class="nav-link" href="#footer"></a>Pricing</li>
             </ul>
         </nav>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <h1>Handcrafted, home-made masterpieces</h1>
-            <input id="email" type="email" placeholder="Enter your email address" required>
-            <input id="submit" type="submit" value="submit">
-        </form>
+
     </header>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h1>Handcrafted, home-made masterpieces</h1>
+        <input id="email" type="email" name='email' placeholder="Enter your email address" required>
+        <input id="submit" type="submit" value="submit">
+    </form>
+
+    <div id="how-it-works" class="center">
+        <ul>
+            <li>
+                <b>Premium Materials</b><br />
+                Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+            </li>
+            <li>
+                <b>Fast Shipping</b><br>
+                We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
+            </li>
+            <li>
+                <b>Quality Assurance</b><br />
+                For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+            </li>
+        </ul>
+    </div>
+
+    <div class="center">
+        <iframe id='video' width="560" height="315" src="https://www.youtube.com/embed/3ahWiS--CUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div id='footer'>
+
+    </div>
 </body>
+
+
+</html>
 </html>
